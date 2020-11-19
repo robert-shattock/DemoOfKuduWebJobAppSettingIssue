@@ -19,3 +19,5 @@ Demo project to illustrate a bug with WebJobs in Kudu not always having their ap
   * Web: settingOrigin = Azure App Service Application Setting
   * WebJob: settingOrigin = WebJob - In Place **(this is the bug, it should be Azure App Service Application Setting)**
   * WebJobNoInPlace: settingOrigin = Azure App Service Application Setting
+
+![Picture showing differences in Application Setting Used in each project scenario](https://github.com/robert-shattock/DemoOfKuduWebJobAppSettingIssue/blob/main/BugDemoImageForReadMe.jpg?raw=true)
